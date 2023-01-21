@@ -16,6 +16,7 @@ ul {
 
 .logo {
   display: flex;
+  margin-left: 10px;
 }
 
 a {
