@@ -1,0 +1,24 @@
+nav {
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.logo {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
