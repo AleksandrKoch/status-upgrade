@@ -1,8 +1,15 @@
+body {
+  height: 100vh;
+  border: 3px solid red;
+  box-sizing: border-box;
+}
+
 nav {
   background-color: pink;
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  height: 50px;
 }
 
 ul {
@@ -25,20 +32,28 @@ a {
 }
 
 .main-content {
+  border: 3px solid black;
   background-color: rgb(189, 189, 246);
-  text-align: center;
+
   font-size: x-large;
-  padding: 100px;
+  /* padding: 100px; */
+  height: calc(100% - 140px);
+  box-sizing: border-box;
 }
 
 .geo-location {
   font-size: x-small;
 }
-
+strong {
+  text-align: center;
+  display: block;
+  border: 3px solid green;
+}
 footer {
   background-color: rgb(230, 230, 155);
   text-align: right;
   padding: 10px;
+  height: 50px;
 }
 
 .left-aligned {
