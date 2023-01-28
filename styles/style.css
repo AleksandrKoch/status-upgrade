@@ -23,7 +23,7 @@ ul {
 }
 
 .logo {
-  display: flex;
+  align-self: center;
 }
 
 a {
@@ -32,29 +32,35 @@ a {
 }
 
 .main-content {
+  display: flex;
+  flex-direction: column; /* to make main axis vertical */
+  justify-content: center;
   border: 3px solid black;
   background-color: rgb(189, 189, 246);
-
   font-size: x-large;
-  /* padding: 100px; */
+  padding: 150px;
   height: calc(100% - 140px);
   box-sizing: border-box;
 }
 
 .geo-location {
+  align-self: baseline; /* to move text to the left */
   font-size: x-small;
+  border: 3px solid blue;
 }
 strong {
   display: block;
   border: 3px solid green;
 }
 footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
   background-color: rgb(230, 230, 155);
-  text-align: right;
   padding: 10px;
   height: 50px;
 }
 
-.left-aligned {
+/* .left-aligned {
   text-align: left;
-}
+} */
