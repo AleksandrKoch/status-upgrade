@@ -31,6 +31,11 @@ a {
   color: black;
 }
 
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
 .main-content {
   display: flex;
   flex-direction: column; /* to make main axis vertical */
